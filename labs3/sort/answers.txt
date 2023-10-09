@@ -1,11 +1,14 @@
-sort1 uses: TODO
+sort1 uses: Bubble Sort
 
-How do you know?: TODO
+How do you know?:
+Based on the observations using the time command for each file, it has a relatively poor performance on already sorted data and reversed data, which is characteristic of Bubble Sort's time complexity of O(n^2).
 
-sort2 uses: TODO
+sort2 uses: Merge Sort
 
-How do you know?: TODO
+How do you know?:
+Based on the observations using the time command for each file, it has consistent performance across different data types and sizes, which aligns with Merge Sort's time complexity of O(n log n).
 
-sort3 uses: TODO
+sort3 uses: Selection Sort
 
-How do you know?: TODO
+How do you know?:
+Based on the observations using the time command for each file, it shows relatively better performance on already sorted data but struggles with reversed and random data, which is in line with Selection Sort's time complexity of O(n^2).
